@@ -1,0 +1,126 @@
+.logo {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--surface-bg-gray);
+  width: 100px;
+  height: 100px;
+}
+.mail-icon,
+.please-enter-your {
+  position: relative;
+  flex-shrink: 0;
+}
+.mail-icon {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.please-enter-your {
+  display: inline-block;
+  width: 264px;
+}
+.input {
+  align-self: stretch;
+  border-radius: var(--radius-rad-medium);
+  background-color: var(--component-card-bg-card);
+  border: 1px solid var(--component-line-line-placeholder);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-spacing-sm);
+  gap: var(--spacing-spacing-xs);
+}
+.continue-with-email {
+  position: relative;
+}
+.button {
+  align-self: stretch;
+  border-radius: var(--radius-rad-medium);
+  background-color: var(--text-text-blue);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-spacing-sm);
+  gap: var(--spacing-spacing-xs);
+  color: var(--component-card-bg-card);
+}
+.line-child {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.another-way-login {
+  position: relative;
+  font-weight: 500;
+}
+.line {
+  align-self: stretch;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-spacing-sm);
+}
+.facebook-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.button1,
+.sign-up {
+  color: var(--text-text-blue);
+}
+.button1 {
+  align-self: stretch;
+  border-radius: var(--radius-rad-medium);
+  background-color: var(--component-card-bg-card);
+  border: 1px solid var(--text-text-blue);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-spacing-sm);
+  gap: var(--spacing-spacing-xs);
+}
+.sign-up {
+  position: relative;
+  font-weight: 500;
+}
+.card,
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  border-radius: var(--radius-rad-xlarge);
+  background-color: var(--component-card-bg-card);
+  box-shadow: var(--light-mode);
+  padding: 40px 80px;
+  gap: var(--spacing-spacing-lg);
+}
+.login-page {
+  position: relative;
+  background-color: var(--surface-bg-gray);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--text-text-placehoder);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-xs: 12px;
+
+  /* Colors */
+  --surface-bg-gray: #f4f4f5;
+  --component-card-bg-card: #fff;
+  --text-text-blue: #1d4ed8;
+  --text-text-placehoder: #a1a1aa;
+  --component-line-line-placeholder: #d4d4d8;
+
+  /* Spacing */
+  --spacing-spacing-lg: 16px;
+  --radius-rad-xlarge: 16px;
+  --spacing-spacing-sm: 8px;
+  --spacing-spacing-xs: 4px;
+  --radius-rad-medium: 4px;
+
+  /* Gaps */
+  --gap-5xs: 8px;
+  --gap-9xs: 4px;
+
+  /* Paddings */
+  --padding-5xs: 8px;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+
+  /* Effects */
+  --light-mode: 0px 4px 80px rgba(0, 0, 0, 0.16);
+}
