@@ -13,6 +13,7 @@
   background-color: var(--component-card-bg-card);
   align-self: stretch;
   border-radius: var(--radius-rad-medium);
+  flex-shrink: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -56,6 +57,7 @@
   background-color: var(--text-text-blue);
   align-self: stretch;
   border-radius: var(--radius-rad-medium);
+  flex-shrink: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -76,6 +78,7 @@
 }
 .line {
   align-self: stretch;
+  flex-shrink: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -104,6 +107,7 @@
   background-color: var(--component-card-bg-card);
   align-self: stretch;
   border-radius: var(--radius-rad-medium);
+  flex-shrink: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -123,7 +127,6 @@
   justify-content: center;
 }
 .card {
-  align-self: stretch;
   border-radius: var(--radius-rad-xlarge);
   background-color: var(--component-card-bg-card);
   box-shadow: var(--light-mode);
