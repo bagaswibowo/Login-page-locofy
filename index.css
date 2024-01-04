@@ -5,49 +5,62 @@
   width: 100px;
   height: 100px;
 }
-.mail-icon,
-.please-enter-your {
-  position: relative;
-  flex-shrink: 0;
-}
-.mail-icon {
-  width: 20px;
-  height: 20px;
-  overflow: hidden;
-  object-fit: cover;
-}
-.please-enter-your {
-  display: inline-block;
-  width: 264px;
-}
 .input {
+  border: 1px solid var(--component-line-line-placeholder);
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-xs);
+  background-color: var(--component-card-bg-card);
   align-self: stretch;
   border-radius: var(--radius-rad-medium);
-  background-color: var(--component-card-bg-card);
-  border: 1px solid var(--component-line-line-placeholder);
-  flex-shrink: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: var(--spacing-spacing-sm);
-  gap: var(--spacing-spacing-xs);
+  color: var(--text-text-placehoder);
+}
+.icon,
+.mail {
+  overflow: hidden;
+}
+.icon {
+  position: absolute;
+  height: 66.67%;
+  width: 83.33%;
+  top: 16.67%;
+  right: 8.33%;
+  bottom: 16.67%;
+  left: 8.33%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.mail {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
 }
 .continue-with-email {
   position: relative;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-inter);
+  color: var(--component-card-bg-card);
+  text-align: left;
 }
 .button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--spacing-spacing-sm);
+  background-color: var(--text-text-blue);
   align-self: stretch;
   border-radius: var(--radius-rad-medium);
-  background-color: var(--text-text-blue);
-  flex-shrink: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: var(--spacing-spacing-sm);
   gap: var(--spacing-spacing-xs);
-  color: var(--component-card-bg-card);
 }
 .line-child {
   flex: 1;
@@ -63,7 +76,6 @@
 }
 .line {
   align-self: stretch;
-  flex-shrink: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -78,26 +90,30 @@
   flex-shrink: 0;
   object-fit: cover;
 }
-.button1,
-.sign-up {
+.continue-with-email1 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-inter);
   color: var(--text-text-blue);
+  text-align: left;
 }
 .button1 {
+  cursor: pointer;
+  border: 1px solid var(--text-text-blue);
+  padding: var(--spacing-spacing-sm);
+  background-color: var(--component-card-bg-card);
   align-self: stretch;
   border-radius: var(--radius-rad-medium);
-  background-color: var(--component-card-bg-card);
-  border: 1px solid var(--text-text-blue);
-  flex-shrink: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: var(--spacing-spacing-sm);
   gap: var(--spacing-spacing-xs);
 }
 .sign-up {
   position: relative;
   font-weight: 500;
+  color: var(--text-text-blue);
 }
 .card,
 .login-page {
@@ -107,6 +123,7 @@
   justify-content: center;
 }
 .card {
+  align-self: stretch;
   border-radius: var(--radius-rad-xlarge);
   background-color: var(--component-card-bg-card);
   box-shadow: var(--light-mode);
@@ -119,6 +136,8 @@
   width: 100%;
   height: 1024px;
   overflow: hidden;
+  padding: 0 480px;
+  box-sizing: border-box;
   text-align: left;
   font-size: var(--font-size-xs);
   color: var(--text-text-placehoder);
