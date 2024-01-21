@@ -116,7 +116,7 @@
   border-radius: var(--radius-rad-xlarge);
   background-color: var(--component-card-bg-card);
   box-shadow: var(--light-mode);
-  padding: 40px 80px;
+  padding: 40px var(--padding-61xl);
   gap: var(--spacing-spacing-lg);
 }
 .login-page {
@@ -125,7 +125,7 @@
   background-color: var(--surface-bg-gray);
   height: 1024px;
   overflow: hidden;
-  padding: 0 480px;
+  padding: 0 var(--padding-61xl);
   box-sizing: border-box;
   text-align: left;
   font-size: var(--font-size-xs);
